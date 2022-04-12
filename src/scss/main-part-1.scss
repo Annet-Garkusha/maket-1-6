@@ -93,6 +93,8 @@ $colordeepgrey: #7E7E82;
                 cursor:pointer;
                  &::before {
                      content:url('../img/expand.png');
+                     position: relative;
+                     top: 6px;
                  }
                  &::after {
                      content:attr(data-close);
@@ -100,7 +102,7 @@ $colordeepgrey: #7E7E82;
             }
           }
           details[open] summary::before {
-              content:url('../img/iconup.png');  
+              content:url('../img/iconup.png'); 
           }
           details[open] summary::after {
             content:attr(data-open);

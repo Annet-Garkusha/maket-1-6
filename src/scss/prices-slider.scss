@@ -1,10 +1,10 @@
 .swiper-container-3 {
-    & .swiper-slide {
-        width: 260px;
+    & .price-section {
+        width: 240px;
         height: 200px;
         background-color: $colorwhite;
         border-radius: 6px;
-        padding: 16px;
+        padding: 12px;
         box-sizing:border-box;
         position:relative;
         margin-right: 18px;
@@ -17,7 +17,7 @@
             color: $colordeepgrey;
         }
         :nth-child(2n) {
-            padding-bottom: 16px;
+            padding-bottom: 10px;
         }
     }
 }

@@ -134,7 +134,7 @@ body{
      .swiper-container-3 {
          overflow-x: hidden;
      }
-    
+     
      .section-brend, .section-device,
      .section-prices{
          display: none;
@@ -212,6 +212,11 @@ body{
     .main__text {
         .text-2 {
             display: none;
+        }
+    }
+    .swiper-container-3 {
+        & .price-section {
+          width: 220px;
         }
     }
 }
